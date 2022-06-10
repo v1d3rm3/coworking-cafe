@@ -15,13 +15,14 @@
 }
 
 .grid {
-  align-items: center
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .grid h2 {
   flex-shrink: 0;
   width: auto;
-  max-width: 100%;
+  word-wrap: break-word;
 }
 
 .logo {
