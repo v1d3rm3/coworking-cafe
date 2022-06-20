@@ -1,3 +1,15 @@
+.title {
+  text-align: center;
+  font-size: 7vh;
+  font-weight: bold;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.grid div {
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -14,16 +26,6 @@
   flex-grow: 1;
 }
 
-.grid {
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-.grid h2 {
-  flex-shrink: 0;
-  width: auto;
-  word-wrap: break-word;
-}
 
 .logo {
   height: 1em;
@@ -31,8 +33,7 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .title {
+    font-size: 5vh;
   }
 }
