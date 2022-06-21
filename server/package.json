@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json"
+    "start": "node server.js"
   },
   "dependencies": {
-    "json-server": "0.17.0"
+    "json-server": "0.17.0",
+    "lodash": "4.17.21",
+    "bcrypt": "5.0.1"
   },
   "author": "",
   "license": "ISC"
