@@ -9,7 +9,8 @@ export default function NavBar() {
                     <Nav className="me-auto">
                     <Nav.Link href="/About">Sobre nós</Nav.Link>
                     <Nav.Link href="/Places">Locais</Nav.Link>
-                    <Nav.Link href="/SigIn">Entrar</Nav.Link>z
+                    <Nav.Link href="/Register">Criar conta</Nav.Link>
+                    <Nav.Link href="/SigIn">Entrar</Nav.Link>
                 </Nav>
                 </Container>
             </Navbar>

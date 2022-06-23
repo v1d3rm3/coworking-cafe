@@ -1,0 +1,17 @@
+.align_right {
+    text-align: right;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.loginTitle {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.loginBox {
+    margin-top: 3rem;
+    justify-content: center;
+}
