@@ -46,6 +46,11 @@ server.post("/usuario/autenticar", async (req, res) => {
 server.post("/usuario", async (req, res, next) => {
   const alreadyExists = await userAlreadyExists(req.body.login);
 
+  if (!(req?.body?.senha)) {
+    sendErro400("Senha não foi passada", res);
+    return;
+  }
+
   if (alreadyExists) {
     res.status(400).json({ message: "Usuário já existe" });
     return;
@@ -62,6 +67,7 @@ server.post("/usuario", async (req, res, next) => {
  */
 async function userAlreadyExists(login) {
   const usuario = getUserByLogin(login);
+
   if (usuario) {
     return true;
   } else {
@@ -73,7 +79,7 @@ async function userAlreadyExists(login) {
  * Recupera usuário pelo login
  * @param {string} login
  */
-async function getUserByLogin(login) {
+function getUserByLogin(login) {
   return _(router.db.get("usuario"))
   .filter((u) => u.login === login)
   .first()

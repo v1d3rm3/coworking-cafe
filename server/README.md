@@ -1,3 +1,6 @@
+## Primeiros Passos
+- Copiar o arquivo `TEMPLATE.db.json` para o mesmo local com nome `db.json`.
+
 ## Rotas
 
 ### Cadastrar usuário
