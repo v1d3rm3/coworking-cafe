@@ -1,0 +1,23 @@
+.card {
+    width: 25vw;
+    height: 12vw;
+    min-height: 105px;
+    min-width: 219px;
+    
+    padding: 10px;
+    margin: 1vw;
+
+    border: solid;
+    border-radius: 10px;
+    border-color: #3B93FA;
+}
+
+.title{
+    font-size: calc(1rem + .7vw);
+    color:#004593
+}
+
+.card:hover {
+    border-color: #38b760;
+    background-color: #9dffbc;
+}

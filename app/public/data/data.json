@@ -1,0 +1,40 @@
+{
+    "places": [
+        {
+          "name": "Instituto metropole digital",
+          "address": "Lagoa Nova, Natal - RN"
+        },
+        {
+            "name": "Coworking Space",
+            "address": "Av. Engenheiro Roberto Freire, 1962"
+        },
+        {
+            "name": "new way coworking",
+            "address": "Av. Dr. João Medeiros Filho, 5421"
+        },
+        {
+            "name": "Natal Coworking",
+            "address": " R. Seridó, 356 - Petrópolis, Natal - RN"
+        },
+        {
+            "name": "YouBe.Work - Natal",
+            "address": "Manhattan Business Office"
+        },
+        {
+            "name": "Workplace Virgílio",
+            "address": "Rua João Pessoa, Cidade Alta"
+        },
+        {
+            "name": "Coworking Pro",
+            "address": "Lagoa Azul, Natal - RN"
+        },
+        {
+            "name": "Coworking Plus",
+            "address": "Capim macio, Natal - RN"
+        },
+        {
+            "name": "Coworking-withUS",
+            "address": "Bairro vermelho, Natal - RN"
+        }
+      ]
+  }
