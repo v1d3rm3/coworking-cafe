@@ -85,7 +85,7 @@ export default function Register() {
                     />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="dataNascimento">
-                    <Form.Label>Nome</Form.Label>
+                    <Form.Label>Data de Nascimento</Form.Label>
                     <Form.Control
                       type="date"
                       placeholder="Sua data de nascimento"
@@ -94,7 +94,7 @@ export default function Register() {
                     />
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="email">
-                    <Form.Label>Nome</Form.Label>
+                    <Form.Label>Email</Form.Label>
                     <Form.Control
                       type="email"
                       placeholder="Seu email"
