@@ -1,5 +1,22 @@
 {
-  "usuario": [],
+  "usuario": [
+    {
+      "nome": "Victor Almeida Schinaider",
+      "dataNascimento": "1991-08-30",
+      "email": "victorschinaider@outlook.com",
+      "login": "schinaider",
+      "senha": "$2b$10$5fCJyBeXqgUJrrslYWyTROqGWNlOyPnriubKxYnroD.mvY54tizxC",
+      "id": 1
+    },
+    {
+      "nome": "Fulano",
+      "dataNascimento": "2000-01-15",
+      "email": "fulano@gmail.com",
+      "login": "fulano",
+      "senha": "$2b$10$jced1m79Giel05fhNEiZveapzPD6SeKTGJggEbZ1EUlW53021nF4.",
+      "id": 2
+    }
+  ],
   "locais": [
     {
       "id": 1,

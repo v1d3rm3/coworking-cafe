@@ -1,0 +1,28 @@
+.details {
+  padding: 1rem 1rem;
+  margin: 0rem 3rem;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 0.5rem;
+}
+
+.images img{
+  padding: 0rem 0.5rem 0.5rem 0;
+}
+
+.align_right {
+  text-align: right;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.loginTitle {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.loginBox {
+  margin-top: 3rem;
+  justify-content: center;
+}
