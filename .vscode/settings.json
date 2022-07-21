@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "rush.json": "jsonc"
-    }
+    },
+    "editor.tabSize": 2
 }

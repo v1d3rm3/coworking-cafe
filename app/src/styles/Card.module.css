@@ -1,23 +1,36 @@
 .card {
-    width: 25vw;
-    height: 12vw;
-    min-height: 105px;
-    min-width: 219px;
-    
-    padding: 10px;
-    margin: 1vw;
+  width: 25vw;
+  height: 12vw;
+  min-height: 240px;
+  min-width: 219px;
 
-    border: solid;
-    border-radius: 10px;
-    border-color: #3B93FA;
+  padding: 10px;
+  margin: 1vw;
+
+  border: solid;
+  border-radius: 10px;
+  border-color: #3b93fa;
 }
 
-.title{
-    font-size: calc(1rem + .7vw);
-    color:#004593
+.image {
+  height: 6rem;
+  width: 100%;  
+  overflow: hidden;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.imageNode {
+  width: 100%;
+  justify-content: center;
+}
+
+.title {
+  font-size: calc(1rem + 0.7vw);
+  color: #004593;
 }
 
 .card:hover {
-    border-color: #38b760;
-    background-color: #9dffbc;
+  border-color: #38b760;
+  background-color: #9dffbc;
 }
